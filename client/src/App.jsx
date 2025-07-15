@@ -1,7 +1,8 @@
-import "./App.css";
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
 
-function App() {
-  return <></>;
-}
-
-export default App;
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
