@@ -14,6 +14,10 @@ const Register = () => {
 
         <label className="ConfirmPasswordLabel">Confirm Password</label>
         <input type="password" className="Input" />
+
+        <button type="submit" className="RegisterButton">
+          Register
+        </button>
       </form>
     </div>
   );
