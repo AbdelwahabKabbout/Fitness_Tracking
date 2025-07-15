@@ -1,11 +1,7 @@
-import Register from "./Components/Authentication/Register.jsx";
+import "./App.css";
 
 function App() {
-  return;
-  <>
-    <h1>Welcome to the Fitness App</h1>
-    <Register />
-  </>;
+  return <></>;
 }
 
 export default App;

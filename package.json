@@ -10,12 +10,14 @@
     "install-client": "cd client && npm install",
     "install-all": "npm install && npm run install-server && npm run install-client"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "concurrently": "^9.2.0"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.6.3"
   }
 }
