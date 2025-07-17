@@ -1,8 +1,9 @@
+import "./RegisterStyle.css";
 const Register = () => {
   return (
     <div>
       <h2>Register Page</h2>
-      <form>
+      <form className="RegisterForm">
         <label className="UsernameLabel">UserName</label>
         <input type="text" className="Input" />
 
@@ -18,6 +19,10 @@ const Register = () => {
         <button type="submit" className="RegisterButton">
           Register
         </button>
+
+        <p className="LoginPrompt">
+          Already have an account? <a href="/login">Login</a>
+        </p>
       </form>
     </div>
   );
