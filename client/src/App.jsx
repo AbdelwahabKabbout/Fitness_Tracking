@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import Register from "./Components/Authentication/Register";
-import Login from "./Components/Authentication/Login";
-import { useState } from "react";
+import Register from "./Components/Register";
+import Login from "./Components/Login"; // Add this import
 import "./App.css";
 
 function App() {
@@ -9,7 +8,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Register />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/login" element={<Login />} />{" "}
+        <Route path="/register" element={<Register />} />
       </Routes>
     </div>
   );
