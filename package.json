@@ -23,6 +23,7 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "express-rate-limit": "^8.0.1",
+    "react-calendar": "^6.0.0",
     "react-router-dom": "^7.6.3"
   }
 }

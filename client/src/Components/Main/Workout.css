@@ -1,0 +1,79 @@
+.workout-card {
+  max-width: 380px;
+  background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+  border-radius: 16px;
+  padding: 24px;
+  margin: 40px auto;
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.2);
+  font-family: 'Inter', sans-serif;
+  color: #065f46;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.workout-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #059669, #0d9488);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  text-align: center;
+}
+
+.workout-summary p {
+  margin: 4px 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.workout-notes {
+  font-style: italic;
+  color: #134e4a;
+  margin-top: 8px;
+}
+
+.workout-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.btn-complete,
+.btn-replace {
+  flex: 1;
+  padding: 12px 0;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+/* Mark as Complete - green button */
+.btn-complete {
+  background: linear-gradient(135deg, #10b981, #14b8a6);
+  color: white;
+  box-shadow: 0 8px 16px rgba(16, 185, 129, 0.4);
+}
+
+.btn-complete:hover {
+  background: linear-gradient(135deg, #0d9a6c, #0f8d7d);
+  box-shadow: 0 10px 20px rgba(13, 154, 108, 0.6);
+}
+
+/* Replace Workout - subtle outline */
+.btn-replace {
+  background: transparent;
+  color: #065f46;
+  border: 2px solid #065f46;
+}
+
+.btn-replace:hover {
+  background: #065f46;
+  color: white;
+  box-shadow: 0 8px 16px rgba(6, 95, 70, 0.5);
+}

@@ -12,6 +12,7 @@ app.use(express.json());
 
 // Routes
 app.use("/api/auth", require("./routes/authRoutes"));
+app.use("/api/password", require("./routes/passwordRoutes")); // ✅ Changed from "/api/change-password" to "/api/password"
 
 // Function to start server only after successful DB connection
 const startServer = async () => {
